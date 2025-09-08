@@ -26,5 +26,14 @@
     multiplyNumbers(5);
 
     multiplyNumbers(5,3);
-    
+
+    //function with return value
+    function doubleNumber($num){
+        return $num * 25;
+    }
+
+    $value = doubleNumber(50)."\n";
+    echo($value);
+    //or
+    echo (doubleNumber(10))."\n";
 ?>
