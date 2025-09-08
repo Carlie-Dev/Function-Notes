@@ -9,11 +9,22 @@
     displayWelcomeMessage();
 
     //function with parameter
-
     function squareNumber($num)
     {
         $square = $num * $num;
         echo ("the square of $num is $square\n");
     }
     squareNumber(5);
+
+
+    //function with a parameter and an optional parameter
+    function multiplyNumbers($num, $multiplier = 2){
+        $result = $num * $multiplier;
+        echo "$num is multiplied by $multiplier is $result\n";
+    }
+
+    multiplyNumbers(5);
+
+    multiplyNumbers(5,3);
+    
 ?>
