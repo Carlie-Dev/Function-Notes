@@ -1,3 +1,8 @@
+<?php 
+    //logic
+    include "functions.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +17,11 @@
     </style>
     <?php include "nav.php";?>
     <h1>Functionally Speaking</h1>
+    <p>
+        <?php
+            displayWelcomeMessage();
+        ?>
+    </p>
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
